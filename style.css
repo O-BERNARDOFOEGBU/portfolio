@@ -1,0 +1,161 @@
+body        {background-color: #1e202c; 
+            color: #c2c7e5;}
+
+header      {background-color: #1e202c;}
+
+#container  {display: flex; 
+            justify-content: space-between;}
+
+h2          {margin-left: 30px; 
+            color: #c2c7e5; 
+            margin-top: 20px; 
+            font-family: 'Nanum Pen Script', cursive; 
+            font-size: xx-large;}
+
+#list       {display: flex; 
+            justify-content: space-between; 
+            width: 30%; color: #c2c7e5; 
+            margin-right: 30px;}
+
+
+.listitems p {border-bottom: 4px solid yellow;  
+            border-right: 25px margin-top: 30px;}
+
+.listitems button {margin-top: 14px; 
+            background-color: #1e202c; 
+            color: #c2c7e5; 
+            border: 1px solid yellow; 
+            border-radius: 5px; 
+            letter-spacing: 5px; 
+            padding: 5px 5px 5px 5px; }
+
+button:hover {background-color: yellow;}
+
+img.smiley  {width: 30px; 
+            height: 30px; 
+            margin-top: 5px ;}
+
+#aboutme    {margin-top: 200px; 
+            margin-left: 190px; 
+            line-height: 1px; 
+            margin-bottom: 50px;}
+
+#aboutme h3 {color: yellow; 
+            font-family: 'Nanum Pen Script', cursive; 
+            font-size: xx-large;}
+
+.addition2 {background-color: tomato; 
+            width: 50%; 
+            height: 100px;}
+
+h1          {font-size: 80px; 
+            font-family: 'Patua One', cursive;}
+
+.addition   {font-style: italic; 
+            font-size: 20px;}
+
+.addition1 {width: 350px; 
+            height: 130px; 
+            line-height: 30px;}
+
+p.addition1 {font-size: 20px;}
+
+button.button1 {background-color: #1e202c; 
+            color: #c2c7e5; 
+            border: 1px solid yellow;
+            border-radius: 5px; 
+            letter-spacing: 5px; 
+            padding: 15px 15px 15px 15px;}
+
+h3.aboutme1 {color: yellow; 
+            font-family: 'Nanum Pen Script', cursive; 
+            font-size: xx-large;}
+
+#aboutme2   {display: flex; 
+            justify-content: space-evenly; 
+            width: 70%; 
+            margin-left: auto; 
+            margin-right: auto; 
+            margin-bottom: 100px;}
+
+.part1      {width: 40%;} 
+.part2      {width: 40%;}
+
+img.bernard {width: 350px; 
+            height: 350px; 
+            border-radius: 8px;}
+            
+p.aboutme2 {line-height: 25px; 
+            font-size: 20px;}
+
+p.aboutme3 {line-height: 25px; 
+            font-size: 20px;}
+
+#aboutme3   {margin: auto; 
+            width: 600px; 
+            text-align: center;
+            margin-bottom: 120px;} 
+
+#aboutme3 h3 {color: yellow; 
+            font-family: 'Nanum Pen Script', cursive; 
+            font-size: xx-large;}
+
+#foot       {margin: auto; 
+            width: 300px; 
+            text-align: center;}
+
+#foot p     {font-size: large;}
+
+ul li       {list-style-type: none; 
+            display: inline-block; 
+            width: 30%}
+
+img.sociallogo {width: 30px; 
+            height:30px; 
+            margin-top: 25px;}
+
+p.quote     {font-family: 'Nanum Pen Script', cursive;
+            line-height: 25px; 
+            font-size: 20px; 
+            width: 350px; 
+            text-align: center;}
+
+
+@media screen and (max-width: 700px) {
+    #aboutme    {margin-top: 100px; 
+                margin-left: 50px; 
+                line-height: 2px;}
+
+    h1          {font-size: 50px; 
+                line-height: 40px;}
+
+    #list       {display: none;}
+
+    #aboutme2   {display: block; 
+                width: 70%; 
+                margin-left: auto; 
+                margin-right: auto; }
+
+    p.aboutme2  {line-height: 25px; 
+                font-size: 20px; 
+                width: 350px;}
+
+    #aboutme3   {margin: auto; 
+                width: 400px; 
+                text-align: center;
+                margin-bottom: 120px;}
+}
+
+
+
+@media screen and (min-width: 710px) { 
+    #aboutme    {margin-top: 200px; 
+                 margin-left: 190px; 
+                 line-height: 1px; 
+                margin-bottom: 50px;}
+
+    h1          {font-size: 80px; 
+                line-height: 70px;}
+
+
+}
